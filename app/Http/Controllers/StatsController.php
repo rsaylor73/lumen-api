@@ -10,7 +10,6 @@ class StatsController extends Controller
 {
     public function stats(Request $request): JsonResponse
     {
-        # test github action
         return new JsonResponse(StatsService::getStats($request));
     }
 }
