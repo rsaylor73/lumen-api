@@ -1,0 +1,7 @@
+name: lumen-api
+recipe: lamp
+config:
+  via: apache
+  webroot: /public
+  php: '7.4'
+  xdebug: false
